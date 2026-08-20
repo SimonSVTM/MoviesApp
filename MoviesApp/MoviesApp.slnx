@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="../MoviesApp.Core/MoviesApp.Core.csproj" />
+  <Project Path="../MoviesApp.Wpf/MoviesApp.Wpf.csproj" />
+  <Project Path="MoviesApp.ConsoleApp.csproj" />
+</Solution>
