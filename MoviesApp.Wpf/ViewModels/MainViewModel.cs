@@ -9,7 +9,7 @@ namespace MoviesApp.Wpf.ViewModels
 
 {
 
-    public class MainViewModel : INotifyPropertyChanged
+    public class MainViewModel : ViewModelBase
 
     {
 
@@ -66,12 +66,7 @@ namespace MoviesApp.Wpf.ViewModels
         }
 
 
-        public event PropertyChangedEventHandler PropertyChanged;
-
-        protected void OnPropertyChanged(string name) =>
-
-        PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
-
+        
     }
 
 }
