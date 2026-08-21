@@ -15,7 +15,7 @@ namespace MoviesApp.Wpf.ViewModels
 
         // De to ViewModels — oprettes én gang og genbruges
 
-        public FilmViewModel FilmVM { get; }
+        public MovieViewModel MovieVM { get; }
 
 
 
@@ -50,16 +50,16 @@ namespace MoviesApp.Wpf.ViewModels
 
         {
 
-            FilmVM = new FilmViewModel();
+            MovieVM = new MovieViewModel();
 
 
 
             // Start med biler som standardvisning
 
-            CurrentViewModel = FilmVM;
+            CurrentViewModel = MovieVM;
 
 
-            ShowCarsCommand = new RelayCommand(_ => CurrentViewModel = FilmVM);
+            ShowCarsCommand = new RelayCommand(_ => CurrentViewModel = MovieVM);
 
             
 

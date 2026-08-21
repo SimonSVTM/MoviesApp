@@ -17,13 +17,13 @@ namespace MoviesApp.Wpf.ViewModels
 
 {
 
-    public class FilmViewModel : ViewModelBase
+    public class MovieViewModel : ViewModelBase
 
     {
 
 
 
-        public FilmViewModel()
+        public MovieViewModel()
 
         {
 
